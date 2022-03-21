@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>First project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70ce5b34ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <section class="sub-header">
+
+  <nav>
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+           
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+        <h2 id="abc">Our certificate & Programs for 2021</h2>
+
+
+    </section>
+
+    <!--/* blog page*/-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="girl">
+                <h2>Our certificate & Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minima a, unde quos, inventore itaque repellendus fuga ducimus blanditiis quod temporibus, placeat veniam dolorem exercitationem dicta aut similique est expedita.</p>
+                <br>
+
+
+
+                <div class="comment-box">
+                    <h3>leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="enter-name">
+                        <input type="email" placeholder="enter-email">
+                        <textarea rows="5" 
+                        placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">
+                            post comment</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="blog-right">
+                <h2>post categories</h2>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+
+                </div>
+                <div>
+                    <span>data scince</span>
+                    <span>29</span>
+                </div>
+
+                <div>
+                    <span>machine learning</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>123</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>123</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>123</span>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--   Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Fugit nulla autem vero <br />optio ab neque sapiente nostrum qui..</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i>by Atikur Rahman</p>
+    </section>
+
+ <!--    menu script-->
+     <script>
+    
+        var navLinks = document.getElementById("navLinks");
+         function showMenu() {
+             navLinks.style.right ="0";
+         } 
+         function hideMenu() {
+             navLinks.style.right ="-200px";
+         }
+    
+    </script>
+     
+
+</body>
+
+</html>

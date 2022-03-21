@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>First project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70ce5b34ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <section class="sub-header">
+
+
+        <nav>
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+           
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+        <h2>Contact us</h2>
+
+
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16300242.178204507!2d100.56509969227079!3d4.111271716611477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3034d3975f6730af%3A0x745969328211cd8!2sMalaysia!5e0!3m2!1sen!2smy!4v1646256517089!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us ">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house atik "></i>
+                    <span>
+                        <h5>xyz,road,abc building</h5>
+                        <p>malaysia,putrajaya,bank</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone atik"></i>
+                    <span>
+                        <h5>01123601107</h5>
+                        <p>monday saturday,10am to 6 pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope atik"></i>
+                    <span>
+                        <h5>addam453@gamil.com</h5>
+                        <p>email us your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col comment-box">
+                <form action="" class=" comment-form">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="email" placeholder="enter your email" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea rows="8" 
+                    placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--   Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Fugit nulla autem vero <br />optio ab neque sapiente nostrum qui..</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i>by Atikur Rahman</p>
+    </section>
+
+ <!--    menu script-->
+     <script>
+    
+        var navLinks = document.getElementById("navLinks");
+         function showMenu() {
+             navLinks.style.right ="0";
+         } 
+         function hideMenu() {
+             navLinks.style.right ="-200px";
+         }
+    
+    </script>
+     
+
+</body>
+
+</html>
