@@ -3,6 +3,9 @@
     padding: 0;
     font-family: monospace;
 }
+h2 {
+    font-size:40px;
+}
 
 .header {
     min-height: 100vh;
@@ -191,7 +194,7 @@ nav i.fa {
 
 .course h2 {
     font-size: 40px;
-    margin-top:180px;
+    
 
 }
 
@@ -250,6 +253,7 @@ h3 {
     width: 85%;
     margin: auto;
     text-align: center;
+    margin-top: 90px;
 
 
 }
@@ -319,6 +323,7 @@ h3 {
     width: 85%;
     margin: auto;
     text-align: center;
+    margin-top: 90px;
 }
 
 .facilites-col {
@@ -354,6 +359,7 @@ h3 {
     width: 85%;
     margin: auto;
     text-align: center;
+    margin-top: 60px;
 }
 
 .testimonials-col {
@@ -425,7 +431,7 @@ h3 {
 
 @media(max-width:768px) {
     .ctn h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
 }
